@@ -1,21 +1,47 @@
+
+/* Clear out default browser margin overrides if needed */
+.section-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+.section-header p {
+    font-size: 16px;
+    color: #6B7280;
+    margin: 5px 0 0 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* heading */
+.heading h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.heading span{
+    color: #017f53;
+}
+
 .about-container {
     display: flex;
     justify-content: center;
     text-align: justify;
     gap: 30px;
     background: #ffffff;
-    
-    /* FIX: Modern centering that won't break on smaller screens */
     max-width: 800px; 
     margin: 0 auto; 
-    
     padding: 35px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
     border-left: 5px solid #2ECC71;
 }
 
-/* FIX: Cleaned up redundant flex properties from the image tag */
 .about-image img {
     width: 100px;
     height: 100px;
@@ -38,7 +64,7 @@
     gap: 40px;
     flex-wrap: wrap;
     margin-top: 70px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .feature-card {
