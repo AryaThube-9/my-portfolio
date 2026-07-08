@@ -42,3 +42,25 @@ body{
     color:#fff;
 
 }
+
+.logo-text h2{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.logo-text h2 span{
+
+    color:#2ecc71;
+}
+
+.logo-text p{
+
+    color:#cfcfcf;
+    font-size:15px;
+}
+
+.logo-text p span{
+
+    color:#2ecc71;
+} 
