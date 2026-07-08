@@ -7,7 +7,7 @@
 
 body{
     background: #f3f5f7;
-    padding: 40px;
+    padding: 30px;
 }
 
 
@@ -18,8 +18,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 40px;
-    border-radius: 18px;
+    padding: 15px 40px;
+    border-radius: 50px;
     box-shadow:0 15px 40px rgba(0,0,0,.25);
 }
 
@@ -31,8 +31,8 @@ body{
 }
 
 .logo-circle{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background:linear-gradient(135deg,#0d5f42,#27ae60);
     display: flex;
@@ -45,19 +45,18 @@ body{
 
 .logo-text h2{
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
 .logo-text h2 span{
-
     color:#2ecc71;
 }
 
 .logo-text p{
 
     color:#cfcfcf;
-    font-size:15px;
+    font-size:12px;
 }
 
 .logo-text p span{
@@ -69,7 +68,7 @@ body{
 
 .nav-links{
     display: flex;
-    gap: 40px;
+    gap: 47px;
     list-style: none;
 }
 
@@ -84,11 +83,11 @@ body{
 }
 
 .nav-links li i{
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .nav-links span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -100,3 +99,21 @@ body{
     color:#2ecc71 !important;
 }
 
+.contact-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(135deg,#27ae60,#6fcf97);
+    padding:13px 28px;
+    border-radius:12px;
+    font-size:17px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.contact-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(39,174,96,.4);
+}
