@@ -1,0 +1,131 @@
+.section-title h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #101820;
+    margin-bottom: 18px;
+    text-align: center;
+    padding-top: none;
+}
+
+.section-title h2 span{
+    color: #2ECC71;
+}
+
+.section-title p{
+    color: #6B7280;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 620px;
+    margin: auto;
+}
+
+.skills{
+    padding: 30px 8%;  
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap: 35px;
+      margin-top: 50px;
+}
+
+.skill-card{
+    position: relative;
+    background: #fff;
+   padding: 30px 25px;
+    border-radius: 22px;
+    text-align: center;
+    transition: .4s;
+    overflow: hidden;
+     border-top: 5px solid #2ECC71;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.skill-icon img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    background: #F8FAFC;
+    border: 2px solid #2ECC71;
+    padding: 3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.skill-card h3{
+
+    color:#101820;
+
+    margin-bottom:15px;
+
+}
+
+.skill-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+} 
+
+.skill-card:hover{
+
+   transform:translateY(-8px);
+
+   box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.btn img{
+    height: 30px;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.card-buttons a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+text-align: center;
+    align-items: center;
+   background:#F4FCF7;
+    color: #0D5F42;
+    padding: 7px 16px;
+   border-radius:14px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #d8e5dd;
+   gap: 12px;
+   width:170px;
+margin: 0 auto;height: 48px;  height: 40px;
+}
+
+.explore-btn a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    /* transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    background-color: #1ce39e; */
+    background:#cbfee4;
+transform:translateY(-3px);
+box-shadow:0 8px 18px rgba(46,204,113,.18);
+}
